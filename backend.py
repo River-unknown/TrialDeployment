@@ -10,7 +10,7 @@ API_KEY = os.getenv('API_KEY')
 genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["http://localhost:3000"])
 
 # PDF Generation Class
 class PDF(FPDF):
