@@ -1,5 +1,6 @@
 Flask==2.3.3
 Flask-CORS==3.0.10
 fpdf==1.7.2
-google-generativeai==0.1.0  
+google-generativeai==0.8.4
+google-ai-generativelanguage==0.6.15
 gunicorn==20.1.0
